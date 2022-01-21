@@ -36,13 +36,12 @@ Path to this resource should be: /api/rental
 - Implement login/logout and use with User and Workers credentials
 - Forbid users with ROLE_USER access to RentalController resources
 
-#### UI or Postman collection
-Design a simple frontend/postman to our VHS rental shop that will have these mandatory actions:
+#### Postman collection
+Design a simple postman collection to our VHS rental shop that will have these mandatory actions:
 - Login/Logout
 - VHS
   - List
   - VHS Rent and Return option
-  - Preview
 - List of Rentals
 
 #### Run Nexus 
@@ -56,8 +55,8 @@ Design a simple frontend/postman to our VHS rental shop that will have these man
    - Define a volume mount point for the /opt/nexus/sonatype-work container directory
    - Define the command for starting Nexus server
    - Use all other best practices and security consideration you are aware of
-2) Write a podman or docker command that builds container image from the written Dockerfile.
-3) Write a podman or docker command that starts the container from the builded image and:
+2) Write a podman or docker command that builds container image from the written Nexus Dockerfile.
+3) Write a podman or docker command that starts the container from the builded Nexus image and:
    - Sets the container name to nexus
    - Runs the container in background
    - Mounts the container folder /opt/nexus/sonatype-work to host filesystem folder of your choosing
@@ -71,7 +70,7 @@ Design a simple frontend/postman to our VHS rental shop that will have these man
    - Define the command for starting your solution
    - Use all other best practices and security consideration you are aware of
 2) Write a podman or docker command that builds your container image from the written Dockerfile.
-3) Write a podman or docker command that pushes the build container image to your previously run nexus
+3) Write a podman or docker command that pushes the build container image to your previously run Nexus
 
 # Guidance:
 
