@@ -44,6 +44,7 @@ Design a simple postman collection to our VHS rental shop that will have these m
   - VHS Rent and Return option
 - List of Rentals
 
+### Devops tasks
 #### Run Nexus 
 1) Write a Containerfile (Dockerfile) that containerizes the Nexus server. The binaries for Nexus server can be downloaded from the following URL: https://download.sonatype.com/nexus/3/nexus-3.37.3-02-unix.tar.gz. The Containerfile must also:
    - Use a base image of ubi8/ubi:8.3 and set an arbitrary maintainer.
