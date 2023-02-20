@@ -20,7 +20,7 @@
    - Starts the container automatically with operating system
 4) Write documentation as `README.md` file containing:
    - Short description of project
-   - Steps to build and run your new image
+   - Steps to build, run and use (login to) your container
 
 # Guidance:
 
