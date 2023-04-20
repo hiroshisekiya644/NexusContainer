@@ -10,7 +10,7 @@ This project provides a Dockerfile for building a Docker image of the Nexus serv
 
 ## Build Instructions
 
-To build the Docker image, you must first download the Nexus bundle from the Sonatype website and place it in the same directory as the Dockerfile. Then, you can run the following command:
+To build the Docker image, run the following command:
 
 ```
 sudo sh build.sh
