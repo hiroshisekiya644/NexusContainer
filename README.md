@@ -26,7 +26,7 @@ To start a container from the nexus image, run the following command:
 sudo sh start.sh
 ```
 
-This will start a container named nexus in the background, bind port 18081 on the host to port 8081 in the container, and mount the /tn_devops/nexus directory on the host to the /opt/nexus/sonatype-work directory in the container. The Nexus server will be available at http://localhost:8081.
+This will start a container named nexus in the background, bind port 8081 on the host to port 8081 in the container, and mount the /tn_devops/nexus directory on the host to the /opt/nexus/sonatype-work directory in the container. The Nexus server will be available at http://localhost:8081.
 
 ## Login
 
