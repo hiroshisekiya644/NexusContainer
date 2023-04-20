@@ -2,7 +2,7 @@
 
 ## Project task
 
-You can find project task [here](TASK.md). The solution was tested in a Rocky Linux virtual machine.
+You can find project task [here](TASK.md). The solution was tested in a Rocky 9.1 Linux virtual machine.
 
 ## Nexus Docker Image
 
