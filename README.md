@@ -1,4 +1,4 @@
-# NexusContainer (currently solving)
+# NexusContainer
 
 ## Project task
 
