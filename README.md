@@ -30,9 +30,15 @@ This will start a container named nexus in the background, bind port 8081 on the
 
 ## Login
 
-Once the Nexus server is running, you can log in to it by navigating to http://localhost:8081 in your web browser and using the default credentials:
+Once the Nexus server is running, you can log in to it by navigating to http://localhost:8081 in your web browser and using the default username:
 ```
-Username: admin
-Password: admin123
+admin
 ```
+Since password is randomly generated for Nexus versions 3.17+, you need to inspect admin.password file inside the docker container using this commands:
+```
+docker exec -t -i nexus /bin/bash
+cd ./sonatype-work/nexus3
+cat admin.password
+```
+
 Note that you should change the default password as soon as possible after logging in.
