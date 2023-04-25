@@ -1,4 +1,4 @@
-# NexusContainer
+# NexusContainer (currently solving)
 
 ## Project task
 
@@ -10,10 +10,10 @@ This project provides a Dockerfile for building a Docker image of the Nexus serv
 
 ## Build Instructions
 
-To build the Docker image, you must first download the Nexus bundle from the Sonatype website and place it in the same directory as the Dockerfile. Then, you can run the following command:
+To build the Docker image, run the following command:
 
 ```
-sudo sh build.sh
+sudo sh ./build.sh
 ```
 This will create a Docker image tagged as nexus using the Dockerfile in the current directory.
 
@@ -23,14 +23,14 @@ This will create a Docker image tagged as nexus using the Dockerfile in the curr
 To start a container from the nexus image, run the following command:
 
 ```
-sudo sh start.sh
+sudo sh ./start.sh
 ```
 
-This will start a container named nexus in the background, bind port 18081 on the host to port 8081 in the container, and mount the /tn_devops/nexus directory on the host to the /opt/nexus/sonatype-work directory in the container. The Nexus server will be available at http://localhost:18081.
+This will start a container named nexus in the background, bind port 8081 on the host to port 8081 in the container, and mount the /tn_devops/nexus directory on the host to the /opt/nexus/sonatype-work directory in the container. The Nexus server will be available at http://localhost:8081.
 
 ## Login
 
-Once the Nexus server is running, you can log in to it by navigating to http://localhost:18081 in your web browser and using the default credentials:
+Once the Nexus server is running, you can log in to it by navigating to http://localhost:8081 in your web browser and using the default credentials:
 ```
 Username: admin
 Password: admin123
