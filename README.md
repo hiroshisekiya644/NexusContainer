@@ -34,7 +34,7 @@ Once the Nexus server is running, you can log in to it by navigating to http://l
 ```
 admin
 ```
-Since password is randomly generated for Nexus versions 3.17+, you need to inspect admin.password file inside the docker container using this commands:
+Since password is randomly generated for Nexus versions 3.17+, you need to inspect admin.password file inside the docker container using these commands:
 ```
 docker exec -t -i nexus /bin/bash
 cd ./sonatype-work/nexus3
