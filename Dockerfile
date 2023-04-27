@@ -16,7 +16,7 @@ ENV NEXUS_HOME=/opt/nexus \
 	NEXUS_VERSION=/nexus-3.37.3-02 \
 	TMP=/tmp
 
-# Create NEXUS_HOME and tmp directory
+# Create NEXUS_HOME and TMP directory
 RUN mkdir -p ${NEXUS_HOME} ${TMP}
 
 # Define default working directory to TMP
