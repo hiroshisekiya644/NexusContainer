@@ -16,7 +16,7 @@ To build the Docker image, run the following command:
 sudo sh ./build.sh
 ```
 This will create a Docker image tagged as nexus using the Dockerfile in the current directory.
-
+ 
 
 ## Run Instructions
 
