@@ -5,7 +5,7 @@
 You can find project task [here](TASK.md). The solution was tested in a Rocky 9.1 Linux virtual machine.
 
 ## Nexus Docker Image
-
+ 
 This project provides a Dockerfile for building a Docker image of the Nexus server. The image is based on the ubi8/ubi:8.7 image and includes OpenJDK 1.8.0, which is required by Nexus. The image also defines several environment variables and exposed ports to make it easier to configure and run the Nexus server.
 
 ## Build Instructions
